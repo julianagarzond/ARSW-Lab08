@@ -50,15 +50,26 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 7. La función que calcula en enésimo número de la secuencia de Fibonacci está muy mal construido y consume bastante CPU para obtener la respuesta. Usando la consola del Browser documente los tiempos de respuesta para dicho endpoint usando los siguintes valores:
     * 1000000
+    ![image](https://user-images.githubusercontent.com/53972469/78571661-0fd7a780-77ec-11ea-91b5-dd4ef7e80e5f.png)
     * 1010000
+    ![image](https://user-images.githubusercontent.com/53972469/78574121-2d5a4080-77ef-11ea-937b-03d9c330a91a.png)
     * 1020000
+    ![image](https://user-images.githubusercontent.com/53972469/78574345-7f9b6180-77ef-11ea-9711-ddab880cf39f.png)
     * 1030000
+    ![image](https://user-images.githubusercontent.com/53972469/78576441-4ca69d00-77f2-11ea-9ed6-7067bdcdd16b.png)
     * 1040000
+    ![image](https://user-images.githubusercontent.com/53972469/78575039-6e9f2000-77f0-11ea-8025-c3f35e7f92a8.png)
     * 1050000
+    ![image](https://user-images.githubusercontent.com/53972469/78575277-c0e04100-77f0-11ea-8a98-bf59a04ed733.png)
     * 1060000
+    ![image](https://user-images.githubusercontent.com/53972469/78575523-187eac80-77f1-11ea-8156-4cc46f643056.png)
     * 1070000
+    ![image](https://user-images.githubusercontent.com/53972469/78576780-c6d72180-77f2-11ea-822c-ee486120dd65.png)
     * 1080000
-    * 1090000    
+    ![image](https://user-images.githubusercontent.com/53972469/78577254-6bf1fa00-77f3-11ea-9e43-8b85e31605a7.png)
+    * 1090000
+    ![image](https://user-images.githubusercontent.com/53972469/78577482-bf644800-77f3-11ea-931d-e538ec593c84.png)
+
 
 8. Dírijase ahora a Azure y verifique el consumo de CPU para la VM. (Los resultados pueden tardar 5 minutos en aparecer).
 
