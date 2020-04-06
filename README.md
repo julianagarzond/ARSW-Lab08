@@ -49,25 +49,48 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 ![](images/part1/part1-vm-3000InboudRule.png)
 
 7. La función que calcula en enésimo número de la secuencia de Fibonacci está muy mal construido y consume bastante CPU para obtener la respuesta. Usando la consola del Browser documente los tiempos de respuesta para dicho endpoint usando los siguintes valores:
-    * 1000000
-    ![image](https://user-images.githubusercontent.com/53972469/78571661-0fd7a780-77ec-11ea-91b5-dd4ef7e80e5f.png)
-    * 1010000
-    ![image](https://user-images.githubusercontent.com/53972469/78574121-2d5a4080-77ef-11ea-937b-03d9c330a91a.png)
-    * 1020000
+
+### A1
+
+   * 1000000
+    ![image](https://user-images.githubusercontent.com/53972469/78580295-d1e08080-77f7-11ea-94e2-7ec94c7d4fc3.png)
+   * 1010000
+    ![image](https://user-images.githubusercontent.com/53972469/78581279-49fb7600-77f9-11ea-96da-bfcf6fbafd31.png)
+   * 1020000
     ![image](https://user-images.githubusercontent.com/53972469/78574345-7f9b6180-77ef-11ea-9711-ddab880cf39f.png)
-    * 1030000
+   * 1030000
+    ![image](https://user-images.githubusercontent.com/53972469/78581654-c68e5480-77f9-11ea-89c6-e10f075ae18c.png)
+   * 1040000
+    ![image](https://user-images.githubusercontent.com/53972469/78582383-cf335a80-77fa-11ea-84ad-b1e2da544c74.png)
+   * 1050000
+    ![image](https://user-images.githubusercontent.com/53972469/78582539-0ace2480-77fb-11ea-9d58-94c721a370f6.png)
+   * 1060000
+    ![image](https://user-images.githubusercontent.com/53972469/78582692-4cf76600-77fb-11ea-903b-37a622ceadf6.png)
+   * 1070000
+    ![image](https://user-images.githubusercontent.com/53972469/78583014-d60e9d00-77fb-11ea-91c2-6e21badbf015.png)
+   * 1080000
+   * 1090000
+### A6
+
+   * 1000000
+    ![image](https://user-images.githubusercontent.com/53972469/78571661-0fd7a780-77ec-11ea-91b5-dd4ef7e80e5f.png)
+   * 1010000
+    ![image](https://user-images.githubusercontent.com/53972469/78574121-2d5a4080-77ef-11ea-937b-03d9c330a91a.png)
+   * 1020000
+    ![image](https://user-images.githubusercontent.com/53972469/78574345-7f9b6180-77ef-11ea-9711-ddab880cf39f.png)
+   * 1030000
     ![image](https://user-images.githubusercontent.com/53972469/78576441-4ca69d00-77f2-11ea-9ed6-7067bdcdd16b.png)
-    * 1040000
+   * 1040000
     ![image](https://user-images.githubusercontent.com/53972469/78575039-6e9f2000-77f0-11ea-8025-c3f35e7f92a8.png)
-    * 1050000
+   * 1050000
     ![image](https://user-images.githubusercontent.com/53972469/78575277-c0e04100-77f0-11ea-8a98-bf59a04ed733.png)
-    * 1060000
+   * 1060000
     ![image](https://user-images.githubusercontent.com/53972469/78575523-187eac80-77f1-11ea-8156-4cc46f643056.png)
-    * 1070000
+   * 1070000
     ![image](https://user-images.githubusercontent.com/53972469/78576780-c6d72180-77f2-11ea-822c-ee486120dd65.png)
-    * 1080000
+   * 1080000
     ![image](https://user-images.githubusercontent.com/53972469/78577254-6bf1fa00-77f3-11ea-9e43-8b85e31605a7.png)
-    * 1090000
+   * 1090000
     ![image](https://user-images.githubusercontent.com/53972469/78577482-bf644800-77f3-11ea-931d-e538ec593c84.png)
 
 
