@@ -64,6 +64,10 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![Imágen 2](images/part1/part1-vm-cpu.png)
 
+- Cpu
+![image](https://user-images.githubusercontent.com/43153078/78571480-d99a2800-77eb-11ea-8d24-f305717d77f2.png)
+
+
 9. Ahora usaremos Postman para simular una carga concurrente a nuestro sistema. Siga estos pasos.
     * Instale newman con el comando `npm install newman -g`. Para conocer más de Newman consulte el siguiente [enlace](https://learning.getpostman.com/docs/postman/collection-runs/command-line-integration-with-newman/).
     * Diríjase hasta la ruta `FibonacciApp/postman` en una maquina diferente a la VM.
