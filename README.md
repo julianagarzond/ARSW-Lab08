@@ -53,7 +53,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 ### A1
 
    * 1000000
-    ![image](https://user-images.githubusercontent.com/53972469/78580295-d1e08080-77f7-11ea-94e2-7ec94c7d4fc3.png)
+    ![image](https://user-images.githubusercontent.com/53972469/78586264-ce052c00-7800-11ea-9676-7e30a9ccc529.png)
    * 1010000
     ![image](https://user-images.githubusercontent.com/53972469/78581279-49fb7600-77f9-11ea-96da-bfcf6fbafd31.png)
    * 1020000
@@ -69,7 +69,10 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
    * 1070000
     ![image](https://user-images.githubusercontent.com/53972469/78583014-d60e9d00-77fb-11ea-91c2-6e21badbf015.png)
    * 1080000
+    ![image](https://user-images.githubusercontent.com/53972469/78586461-16244e80-7801-11ea-9b51-4665d1982b84.png)
    * 1090000
+    ![image](https://user-images.githubusercontent.com/53972469/78586669-600d3480-7801-11ea-8980-50257f66a31e.png)
+    
 ### A6
 
    * 1000000
