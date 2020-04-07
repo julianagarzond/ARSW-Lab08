@@ -325,6 +325,10 @@ newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALAN
 * Informe de newman 1 (Punto 2)
 * Presente el Diagrama de Despliegue de la solución.
 
+![image](https://user-images.githubusercontent.com/43153078/78718532-0d5a7800-78e8-11ea-9f50-7adfb0f382dd.png)
+
+
+
 
 
 
