@@ -276,11 +276,17 @@ newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALAN
    
 
 * ¿Qué es una *Virtual Network*? ¿Qué es una *Subnet*? ¿Para qué sirven los *address space* y *address range*?
--  Una red virtual es una representación de la red propia en la nube, es un aislaiento lógico de la nube de azure dedicada a su sucripción.
--  Una subnet permite segmentar la red virtual en una o más subnets y además asignarles una parte del espacio de direcciones de la red virtual de cada subnet, además se pueden implementar reccursos que se han creado en Azure en una subnet específica
--  Los Address Space se deben especificar al crear una red virtual , debe ser un espacio de direcciones  IP privadas personalizadas .
+   -  Una red virtual es una representación de la red propia en la nube, es un aislaiento lógico de la nube de azure dedicada a su sucripción.
+   -  Una subnet permite segmentar la red virtual en una o más subnets y además asignarles una parte del espacio de direcciones de la red virtual de cada subnet, además se pueden implementar reccursos que se han creado en Azure en una subnet específica
+   -  Los Address Space se deben especificar al crear una red virtual , debe ser un espacio de direcciones  IP privadas personalizadas .
 * ¿Qué son las *Availability Zone* y por qué seleccionamos 3 diferentes zonas?. ¿Qué significa que una IP sea *zone-redundant*?
+
+   -  Es una oferta de alta disponibilidad que protege las aplicaciones y los datos de fallas que puedan ocurrir en el datacenter, las zonas de disponibilidad son ubicaciones fisicas de de una región determidasa por Azure, cada zona cuenta con uno o varios centros de datos
+   -  Se dividem em 3 diferentes zonas para para proteger las aplicaciones y los datos de fallas del centro de datos, se ofrece un mejor SLA de tiempo de activiad de VM de 99.99%
+   -  Los servicios de zona redudante hace que la plataforma se replique automaticamnete en todas las zonas
+   
 * ¿Cuál es el propósito del *Network Security Group*?
+   -  Se puede filtrar el trafico de red hacia los recursos de azure y desde los recursos de azure en una red virtual virtual de azure con un grupo de seguridd de red, además contienen reglas de seguridad que permiten o niegan el táfico de una red emtran
 * Informe de newman 1 (Punto 2)
 * Presente el Diagrama de Despliegue de la solución.
 
