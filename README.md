@@ -266,8 +266,13 @@ newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALAN
    
 * ¿Cuál es el propósito del *Backend Pool*?
 
+Define como evaluar los diferentes bbackends a través de sondas de estado, además de producir equilibrio de carga entre estos.
+
 * ¿Cuál es el propósito del *Health Probe*?
+Se deben realizar sondeos de estado para detectar el el endless point del backend, se determinan que instancias recibiran nuevos flujos.
+
 * ¿Cuál es el propósito de la *Load Balancing Rule*? ¿Qué tipos de sesión persistente existen, por qué esto es importante y cómo puede afectar la escalabilidad del sistema?.
+
 * ¿Qué es una *Virtual Network*? ¿Qué es una *Subnet*? ¿Para qué sirven los *address space* y *address range*?
 * ¿Qué son las *Availability Zone* y por qué seleccionamos 3 diferentes zonas?. ¿Qué significa que una IP sea *zone-redundant*?
 * ¿Cuál es el propósito del *Network Security Group*?
