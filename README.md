@@ -127,7 +127,23 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 1. ¿Cuántos y cuáles recursos crea Azure junto con la VM?
+   Junto a la maquina se crean 9 recursos
+      - Maquina Virtual
+      - Interfaz de red
+      - Disco 
+      - Dirección IP pública
+      - Grupo de seguridad
+      
+![image](https://user-images.githubusercontent.com/43153078/78712812-da5fb680-78de-11ea-9ed5-0df4a4a59e38.png)
+![image](https://user-images.githubusercontent.com/43153078/78712908-07ac6480-78df-11ea-920a-e1faf3e5af2e.png)
+![image](https://user-images.githubusercontent.com/43153078/78712948-12ff9000-78df-11ea-8ea5-852a3d84e744.png)
+![image](https://user-images.githubusercontent.com/43153078/78713134-6245c080-78df-11ea-8c74-87cdffc063e6.png)
 2. ¿Brevemente describa para qué sirve cada recurso?
+      - Maquina Virtual : Se crea para emular un ordenador con sus diferentes componentes y recursos.
+      - Interfaz de red : Sirve para señalar la conexión que se da de manera física, entre los dispositivos y el sistema.
+      - Disco : Se ultiliza para el almacenamiento de datos
+      - Dirección IP públicaa: Permite acceder a la vm y a conexiones
+      - Grupo de seguridad : Se utiliza para filtrar el tráfico de la red 
 3. 
 - ¿Al cerrar la conexión ssh con la VM, por qué se cae la aplicación que ejecutamos con el comando `npm FibonacciApp.js`? 
 
