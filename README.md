@@ -140,9 +140,13 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 ![image](https://user-images.githubusercontent.com/43153078/78713134-6245c080-78df-11ea-8c74-87cdffc063e6.png)
 2. ¿Brevemente describa para qué sirve cada recurso?
       - Maquina Virtual : Se crea para emular un ordenador con sus diferentes componentes y recursos.
+      
       - Interfaz de red : Sirve para señalar la conexión que se da de manera física, entre los dispositivos y el sistema.
+      
       - Disco : Se ultiliza para el almacenamiento de datos
+      
       - Dirección IP públicaa: Permite acceder a la vm y a conexiones
+      
       - Grupo de seguridad : Se utiliza para filtrar el tráfico de la red 
 3. 
 - ¿Al cerrar la conexión ssh con la VM, por qué se cae la aplicación que ejecutamos con el comando `npm FibonacciApp.js`? 
@@ -160,11 +164,19 @@ Se puede deber a la capacidad de procesamiento de la máquina virtual.
 
 5. Adjunte imágen del consumo de CPU de la VM e interprete por qué la función consume esa cantidad de CPU.
 
+
 El consumo de CPU se debe a que la función tiene una complejidad lineal, debido a el for que se utiliza para calcular el resultado, esto hace que entre mayor el número, mayor el tiempo que se necesita.
 
+![image](https://user-images.githubusercontent.com/43153078/78716662-ebabc180-78e4-11ea-8c42-42fc03bf8ad7.png)
+![Capturecpu2](https://user-images.githubusercontent.com/43153078/78716732-0f6f0780-78e5-11ea-9de0-6219caa5d9cc.PNG)
+
+
 6. Adjunte la imagen del resumen de la ejecución de Postman. Interprete:
-    * Tiempos de ejecución de cada petición.
-    * Si hubo fallos documentelos y explique.
+![Capturea1](https://user-images.githubusercontent.com/43153078/78716832-3dece280-78e5-11ea-97bc-f055a2d83e8c.PNG)
+![Captureconcurrent](https://user-images.githubusercontent.com/43153078/78716836-3e857900-78e5-11ea-8873-c4e81920fa70.PNG)
+![requestnoconcurrent](https://user-images.githubusercontent.com/43153078/78716851-46451d80-78e5-11ea-8011-b3fdfaf45666.PNG)
+   
+    
 7. ¿Cuál es la diferencia entre los tamaños `A0` y `A6`?
 
 - A0 : Tiene 1 vCPUs, 0.75GB de RAM, 1 data disk y cuesta 14.60 dólares mensuales.
@@ -250,6 +262,13 @@ Realice este proceso para las 3 VMs, por ahora lo haremos a mano una por una, si
 
 #### Probar el resultado final de nuestra infraestructura
 
+![image](https://user-images.githubusercontent.com/43153078/78718157-6675dc00-78e7-11ea-9ebd-dd2153fb91e6.png)
+
+![image](https://user-images.githubusercontent.com/43153078/78718182-7097da80-78e7-11ea-874b-e06e04f780ea.png)
+
+![image](https://user-images.githubusercontent.com/43153078/78718532-0d5a7800-78e8-11ea-9f50-7adfb0f382dd.png)
+
+
 1. Porsupuesto el endpoint de acceso a nuestro sistema será la IP pública del balanceador de carga, primero verifiquemos que los servicios básicos están funcionando, consuma los siguientes recursos:
 
 ```
@@ -305,6 +324,8 @@ newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALAN
    -  Se puede filtrar el trafico de red hacia los recursos de azure y desde los recursos de azure en una red virtual virtual de azure con un grupo de seguridd de red, además contienen reglas de seguridad que permiten o niegan el táfico de una red emtran
 * Informe de newman 1 (Punto 2)
 * Presente el Diagrama de Despliegue de la solución.
+
+
 
 
 
